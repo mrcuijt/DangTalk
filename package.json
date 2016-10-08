@@ -1,0 +1,37 @@
+{
+  "name": "dangtalk",
+  "version": "1.0.0",
+  "description": "nw仿钉钉桌面客户端：铛铛",
+  "main": "login.html",
+  "scripts": {
+    "test": "mocha",
+    "start": "/d/Documents/Downloads/nwjs-sdk-v0.14.7-win-ia32/nw.exe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naiba01/DangTalk.git"
+  },
+  "keywords": [
+    "nwjs"
+  ],
+  "author": "Javen Leung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naiba01/DangTalk/issues"
+  },
+  "homepage": "https://github.com/Naiba01/DangTalk#readme",
+  "window": {
+    "title": "铛铛",
+    "toolbar": false,
+    "frame": false,
+    "show_in_taskbar":true,
+    "width": 960,
+    "height": 600,
+    "position": "center",
+    "min_width": 960,
+    "min_height": 600,
+    "max_width": 1920,
+    "max_height": 1080,
+    "resizable": true
+  }
+}
